@@ -4,17 +4,21 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatToolbarModule } from '@angular/material/toolbar';
+
 import { YouTubePlayerModule } from '@angular/youtube-player';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PlayerComponent } from './player/player.component';
+import { LocalPlayerComponent } from './local-player/local-player.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PlayerComponent
+    PlayerComponent,
+    LocalPlayerComponent
   ],
   imports: [
     AppRoutingModule,
@@ -23,11 +27,12 @@ import { PlayerComponent } from './player/player.component';
     MatButtonModule,
     MatDialogModule,
     MatGridListModule,
+    MatSlideToggleModule,
     MatToolbarModule,
     YouTubePlayerModule,
   ],
   providers: [],
-  entryComponents: [PlayerComponent],
+  entryComponents: [PlayerComponent, LocalPlayerComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

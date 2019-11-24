@@ -1,5 +1,10 @@
 <mat-toolbar color="warning" class="mat-elevation-z9">
     <span>請選擇播放以下的歌曲：</span>
+    <span class="spacer"></span>
+    <span style="padding: 10px;">Local</span>
+    <mat-slide-toggle #videoSource color="accent" checked="true">
+        Cloud
+    </mat-slide-toggle>
 </mat-toolbar>
 <mat-grid-list class="video-grid-list" cols="2" rowHeight="1:1">
     <mat-grid-tile>

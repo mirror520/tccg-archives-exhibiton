@@ -1,0 +1,9 @@
+<mat-dialog-content class="video-container">
+    <video #player class="video-js" autoplay="autoplay" preload="auto"
+           [width]="data.width" [height]="data.height" >
+        <source src="./media/{{ this.data.filename }}" type="video/mp4">
+    </video>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>關閉影片</button>
+</mat-dialog-actions>

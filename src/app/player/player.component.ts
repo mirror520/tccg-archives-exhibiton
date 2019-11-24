@@ -2,7 +2,6 @@ import { Component, Inject, OnInit, ViewChild } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { VideoData } from './video-data';
 import { YouTubePlayer } from '@angular/youtube-player';
-import { interval } from 'rxjs';
 
 @Component({
   selector: 'app-player',

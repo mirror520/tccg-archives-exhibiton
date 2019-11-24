@@ -48,9 +48,13 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "./node_modules/video.js/dist/video-js.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/video.js/dist/video.min.js",
+              "./node_modules/videojs-contrib-hls.js/dist/videojs-contrib-hlsjs.min.js"
+            ]
           },
           "configurations": {
             "production": {
