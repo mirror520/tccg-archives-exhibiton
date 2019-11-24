@@ -1,0 +1,22 @@
+.ripple-container {
+  background: hsla(0 ,0% ,100% ,.8);  
+  box-shadow: 0 0 0 1px hsla(0 ,0% ,100% ,.3) inset,
+	          0 .5em 1em rgba(0, 0, 0, 0.6);
+
+  cursor: pointer;
+  text-align: center;
+
+  font-size: 10em;
+
+  width: 600px;
+  height: 600px;
+  line-height: 500px;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: transparent;
+}

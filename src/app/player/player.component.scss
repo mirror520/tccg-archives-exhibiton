@@ -1,0 +1,17 @@
+.video-container {
+    margin: 0 auto;
+    width: 900px;
+    overflow: hidden;
+}
+
+.video-container iframe{
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 120px);
+}
+
+.video-foreground{
+    pointer-events: none;
+}
